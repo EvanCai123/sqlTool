@@ -8,5 +8,5 @@ echo %JAVA_HOME%
 echo %PATH%
 echo %CLASSPATH%
 
-java com.accela.version.util.CheckVersion %CD%\version.txt %1
+java com.accela.version.util.CheckVersion "%CD%\version.txt" %1
 pause
